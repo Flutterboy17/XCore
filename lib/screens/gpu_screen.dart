@@ -154,7 +154,7 @@ class _GPUScreenState extends State<GPUScreen> {
               fontSize: 20,
             ),
           ),
-          SizedBox(height: AppSizes.sectionSpacing-4),
+          SizedBox(height: AppSizes.sectionSpacing - 4),
           Obx(() => buildDetails("Utilization", controller.utilization.value)),
           Obx(() =>
               buildDetails("Current frequency", controller.cfrequency.value)),
