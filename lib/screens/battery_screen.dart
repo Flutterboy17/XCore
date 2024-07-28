@@ -28,14 +28,14 @@ class BatteryScreen extends StatelessWidget {
                 AppAssets.backIcon,
                 height: 30,
                 width: 30,
-                color: AppColors.kSecondayColor,
+                color: AppColors.kSecondaryColor,
               ),
             ),
           ),
           title: Text(
             "Battery",
             style: TextStyle(
-              color: AppColors.kSecondayColor,
+              color: AppColors.kSecondaryColor,
               fontWeight: FontWeight.w500,
             ),
           ),
@@ -102,7 +102,7 @@ class BatteryScreen extends StatelessWidget {
           Text(
             "Details",
             style: TextStyle(
-              color: AppColors.kSecondayColor,
+              color: AppColors.kSecondaryColor,
               fontWeight: FontWeight.bold,
               fontSize: 20,
             ),

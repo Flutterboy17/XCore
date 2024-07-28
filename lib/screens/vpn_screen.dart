@@ -29,7 +29,7 @@ class VPNScreen extends StatelessWidget {
                 Obx(() => Text(
                       vpnController.connectionStatus.value,
                       style: TextStyle(
-                        color: AppColors.kSecondayColor,
+                        color: AppColors.kSecondaryColor,
                         fontWeight: FontWeight.bold,
                         fontSize: 24,
                       ),
@@ -37,7 +37,7 @@ class VPNScreen extends StatelessWidget {
                 Obx(() => Text(
                       vpnController.timer.value,
                       style: TextStyle(
-                        color: AppColors.kSecondayColor.withOpacity(0.8),
+                        color: AppColors.kSecondaryColor.withOpacity(0.8),
                         fontWeight: FontWeight.normal,
                         fontSize: 18,
                       ),
@@ -57,11 +57,11 @@ class VPNScreen extends StatelessWidget {
     return Stack(
                 alignment: Alignment.center,
                 children: [
-                  _buildCircleAvatar(AppColors.kSecondayColor, 115, 0.1),
+                  _buildCircleAvatar(AppColors.kSecondaryColor, 115, 0.1),
                   _buildCircleAvatar(
-                      AppColors.kSecondayColor.withOpacity(0.8), 100, 0.2),
+                      AppColors.kSecondaryColor.withOpacity(0.8), 100, 0.2),
                   _buildCircleAvatarWithShadow(
-                      AppColors.kSecondayColor.withOpacity(0.8),
+                      AppColors.kSecondaryColor.withOpacity(0.8),
                       85,
                       0.3,
                       15,
@@ -73,7 +73,7 @@ class VPNScreen extends StatelessWidget {
                     child: Container(
                       decoration: BoxDecoration(
                         shape: BoxShape.circle,
-                        color: AppColors.kSecondayColor,
+                        color: AppColors.kSecondaryColor,
                         border: Border.all(
                             color: AppColors.kMainColor, width: 0.4),
                         boxShadow: [
@@ -88,7 +88,7 @@ class VPNScreen extends StatelessWidget {
                       child: CircleAvatar(
                         radius: 70,
                         backgroundColor:
-                            AppColors.kSecondayColor.withOpacity(0.6),
+                            AppColors.kSecondaryColor.withOpacity(0.6),
                         child: Stack(
                           alignment: Alignment.center,
                           children: [
@@ -115,7 +115,7 @@ class VPNScreen extends StatelessWidget {
                                 AppAssets.switchOn,
                                 height: 20,
                                 width: 20,
-                                color: AppColors.kSecondayColor,
+                                color: AppColors.kSecondaryColor,
                               ),
                             ),
                           ],
@@ -148,14 +148,14 @@ class VPNScreen extends StatelessWidget {
                           AppAssets.backIcon,
                           height: 30,
                           width: 30,
-                          color: AppColors.kSecondayColor,
+                          color: AppColors.kSecondaryColor,
                         ),
                       ),
                       SizedBox(width: 12),
                       Text(
                         "VPN",
                         style: TextStyle(
-                          color: AppColors.kSecondayColor,
+                          color: AppColors.kSecondaryColor,
                           fontWeight: FontWeight.w500,
                           fontSize: 24,
                         ),
@@ -172,7 +172,7 @@ class VPNScreen extends StatelessWidget {
                           horizontal: AppSizes.paddingHorizontal - 4,
                           vertical: AppSizes.paddingVertical - 2),
                       decoration: BoxDecoration(
-                        color: AppColors.kSecondayColor,
+                        color: AppColors.kSecondaryColor,
                         borderRadius: BorderRadius.circular(12),
                       ),
                       child: Image.asset(
@@ -187,7 +187,7 @@ class VPNScreen extends StatelessWidget {
                       style: TextStyle(
                         fontWeight: FontWeight.bold,
                         fontSize: 50,
-                        color: AppColors.kSecondayColor,
+                        color: AppColors.kSecondaryColor,
                       ),
                     ),
                   ],
@@ -244,7 +244,7 @@ class VPNScreen extends StatelessWidget {
       ),
       width: MediaQuery.of(context).size.width - 30,
       decoration: BoxDecoration(
-        color: AppColors.kSecondayColor,
+        color: AppColors.kSecondaryColor,
         borderRadius: BorderRadius.circular(12),
       ),
       child: Row(
@@ -254,7 +254,7 @@ class VPNScreen extends StatelessWidget {
             padding: const EdgeInsets.only(left: 8),
             child: CircleAvatar(
               radius: 24,
-              backgroundColor: AppColors.kSecondayColor,
+              backgroundColor: AppColors.kSecondaryColor,
               backgroundImage: AssetImage(AppAssets.flag),
             ),
           ),

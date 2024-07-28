@@ -38,7 +38,7 @@ class Performance extends StatelessWidget {
                   style: TextStyle(
                     fontSize: 24,
                     fontWeight: FontWeight.bold,
-                    color: AppColors.kSecondayColor,
+                    color: AppColors.kSecondaryColor,
                   ),
                 ),
                 if (performanceSubTxt != null)
@@ -48,7 +48,7 @@ class Performance extends StatelessWidget {
                     style: TextStyle(
                       fontSize: 16,
                       fontWeight: FontWeight.normal,
-                      color: AppColors.kSecondayColor.withOpacity(.6),
+                      color: AppColors.kSecondaryColor.withOpacity(.6),
                     ),
                   ),
               ],

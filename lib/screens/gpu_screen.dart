@@ -54,14 +54,14 @@ class _GPUScreenState extends State<GPUScreen> {
             AppAssets.backIcon,
             height: 30,
             width: 30,
-            color: AppColors.kSecondayColor,
+            color: AppColors.kSecondaryColor,
           ),
         ),
       ),
       title: Text(
         "GPU Usage",
         style: TextStyle(
-          color: AppColors.kSecondayColor,
+          color: AppColors.kSecondaryColor,
           fontWeight: FontWeight.w500,
         ),
       ),
@@ -149,7 +149,7 @@ class _GPUScreenState extends State<GPUScreen> {
           Text(
             "Details",
             style: TextStyle(
-              color: AppColors.kSecondayColor,
+              color: AppColors.kSecondaryColor,
               fontWeight: FontWeight.bold,
               fontSize: 20,
             ),

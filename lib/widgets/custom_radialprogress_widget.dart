@@ -52,14 +52,14 @@ class CustomRadialProgressWidget extends StatelessWidget {
                 "64GB",
                 style: TextStyle(
                     fontWeight: FontWeight.bold,
-                    color: AppColors.kSecondayColor,
+                    color: AppColors.kSecondaryColor,
                     fontSize: 24),
               ),
               Text(
                 "Total",
                 style: TextStyle(
                     fontWeight: FontWeight.normal,
-                    color: AppColors.kSecondayColor.withOpacity(.6),
+                    color: AppColors.kSecondaryColor.withOpacity(.6),
                     fontSize: 16,
                     height: 1),
               )

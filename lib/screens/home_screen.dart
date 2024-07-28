@@ -112,7 +112,7 @@ class _HomeScreenState extends State<HomeScreen> {
             backgroundColor: AppColors.kBg2Color,
             child: Image.asset(
               AppAssets.profile,
-              color: AppColors.kSecondayColor,
+              color: AppColors.kSecondaryColor,
               height: 20,
               width: 20,
             ),
@@ -126,14 +126,14 @@ class _HomeScreenState extends State<HomeScreen> {
           Text(
             "Good Morning",
             style: TextStyle(
-                color: AppColors.kSecondayColor,
+                color: AppColors.kSecondaryColor,
                 fontWeight: FontWeight.w500,
                 fontSize: 14),
           ),
           Text(
             "Jenny Wilson",
             style: TextStyle(
-                color: AppColors.kSecondayColor, fontWeight: FontWeight.w500),
+                color: AppColors.kSecondaryColor, fontWeight: FontWeight.w500),
           ),
         ],
       ),
@@ -169,7 +169,7 @@ class _HomeScreenState extends State<HomeScreen> {
               Text(
                 "CPU Usage",
                 style: TextStyle(
-                    color: AppColors.kSecondayColor,
+                    color: AppColors.kSecondaryColor,
                     fontWeight: FontWeight.w500,
                     fontSize: 20),
               ),
@@ -193,7 +193,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     axisLine: AxisLine(color: Colors.transparent),
                     majorTickLines: MajorTickLines(color: Colors.transparent),
                     labelStyle: TextStyle(
-                        color: AppColors.kSecondayColor.withOpacity(.5)),
+                        color: AppColors.kSecondaryColor.withOpacity(.5)),
                   ),
                   tooltipBehavior: TooltipBehavior(enable: true),
                   series: [
@@ -226,7 +226,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 Text(
                   "36%",
                   style: TextStyle(
-                    color: AppColors.kSecondayColor,
+                    color: AppColors.kSecondaryColor,
                     fontWeight: FontWeight.w500,
                     fontSize: 36,
                   ),
@@ -234,7 +234,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 Text(
                   "CPU Usage ",
                   style: TextStyle(
-                      color: AppColors.kSecondayColor.withOpacity(.5),
+                      color: AppColors.kSecondaryColor.withOpacity(.5),
                       fontWeight: FontWeight.normal,
                       fontSize: 16,
                       height: 1),
@@ -264,7 +264,7 @@ class _HomeScreenState extends State<HomeScreen> {
           Text(
             "GPU Performance",
             style: TextStyle(
-                color: AppColors.kSecondayColor,
+                color: AppColors.kSecondaryColor,
                 fontWeight: FontWeight.w500,
                 fontSize: 20),
           ),
@@ -282,7 +282,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 maximum: 160,
                 interval: 40,
                 labelStyle:
-                    TextStyle(color: AppColors.kSecondayColor.withOpacity(.5)),
+                    TextStyle(color: AppColors.kSecondaryColor.withOpacity(.5)),
                 majorGridLines: MajorGridLines(
                   width: 1,
                   color: AppColors.kBg2Color.withOpacity(.5),
@@ -326,7 +326,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   Text(
                     "Normal",
                     style: TextStyle(
-                      color: AppColors.kSecondayColor,
+                      color: AppColors.kSecondaryColor,
                     ),
                   )
                 ],
@@ -346,7 +346,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   Text(
                     "Above Normal",
                     style: TextStyle(
-                      color: AppColors.kSecondayColor,
+                      color: AppColors.kSecondaryColor,
                     ),
                   )
                 ],
@@ -375,7 +375,7 @@ class _HomeScreenState extends State<HomeScreen> {
           Text(
             "Network Information",
             style: TextStyle(
-                color: AppColors.kSecondayColor,
+                color: AppColors.kSecondaryColor,
                 fontWeight: FontWeight.w500,
                 fontSize: 20),
           ),
@@ -389,7 +389,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   Text(
                     "25.75 GB",
                     style: TextStyle(
-                        color: AppColors.kSecondayColor,
+                        color: AppColors.kSecondaryColor,
                         fontWeight: FontWeight.w500,
                         fontSize: 20),
                   ),
@@ -416,7 +416,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   Text(
                     "25.75 GB",
                     style: TextStyle(
-                        color: AppColors.kSecondayColor,
+                        color: AppColors.kSecondaryColor,
                         fontWeight: FontWeight.w500,
                         fontSize: 20),
                   ),
@@ -462,7 +462,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       AppAssets.alert,
                       height: 40,
                       width: 40,
-                      color: AppColors.kSecondayColor,
+                      color: AppColors.kSecondaryColor,
                     ),
                   ),
                 ),
@@ -473,14 +473,14 @@ class _HomeScreenState extends State<HomeScreen> {
                     Text(
                       "Alert!",
                       style: TextStyle(
-                          color: AppColors.kSecondayColor,
+                          color: AppColors.kSecondaryColor,
                           fontWeight: FontWeight.w500,
                           fontSize: 24),
                     ),
                     Text(
                       "Your network isn't safe",
                       style: TextStyle(
-                          color: AppColors.kSecondayColor,
+                          color: AppColors.kSecondaryColor,
                           fontWeight: FontWeight.normal,
                           fontSize: 16),
                     ),
